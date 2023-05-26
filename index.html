@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WarnerBros</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li class="logo"><a href="Movies.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Warner_Bros_logo.svg/1965px-Warner_Bros_logo.svg.png" height="25px" width="25px" alt="WB logo"></a></li>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="Movies.html">Movies</a>
+        <ul class="dropdown">
+          <li><a href="MovieDrama.html">Drama</a></li>
+          <li><a href="MovieComedy.html">Comedy</a></li>
+          <li><a href="MovieHorror.html">Horror</a></li>
+          <li><a href="MovieAction.html">Action</a></li>
+        </ul>
+      </li>
+      <li><a href="TvShows.html">TV Shows</a>
+        <ul class="dropdown">
+          <li><a href="TVShowDrama.html">Drama</a></li>
+          <li><a href="TVShowComedy.html">Comedy</a></li>
+          <li><a href="TVShowHorror.html">Horror</a></li>
+          <li><a href="TVShowAction.html">Action</a></li>
+        </ul>
+      </li>
+      <li><a href="Games&Apps.html">Games&Apps</a></li>
+      <li><a href="Collections.html">Collections</a></li>
+    </ul>
+  </nav>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://th.bing.com/th/id/OIP.ObvA1r3wMgczu1f-1J0v-QHaDt?pid=ImgDet&rs=1" alt="Movie Banner 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.appocalypse.co/wp-content/uploads/2020/04/Wonder-Woman-1984-Wallpaper-Background-Video-Conference.jpg" alt="Movie Banner 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://i.pinimg.com/originals/ee/5f/e1/ee5fe132f18c1c63f57af16616104560.jpg" alt="Movie Banner 3">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <section class="highlights">
+    <h2>Welcome to WarnerBros</h2>
+    <div class="highlight">
+        <img src="https://m.media-amazon.com/images/M/MV5BMzk2ZmYxNTUtODlhMi00NzE2LTkwMTctYjg0ODQ1ZjkyNzJmXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg" alt="Highlight 1">
+        <div class="overlay">
+            <a href="Kong.html"><h3>Godzilla vs Kong</h3></a>
+        </div>
+    </div>
+    <div class="highlight">
+        <img src="https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_FMjpg_UX1000_.jpg" alt="Highlight 2">
+        <div class="overlay">
+            <a href="TheBatman.html"><h3>The Batman</h3></a>
+        </div>
+    </div>
+    <div class="highlight">
+        <img src="https://irs.www.warnerbros.com/keyart-jpeg/movies/media/browser/mtrx4_keyart.jpg" alt="Highlight 3">
+        <div class="overlay">
+            <a href="TheMatrix.html"><h3>The Matrix Resurrections</h3></a>
+        </div>
+    </div>
+</section>
+
+
+  <a href="Movies.html" class="get-started">Get Started</a>
+
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      autoplay: {
+        delay: 5000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      effect: 'fade',
+    });
+  </script>
+</body>
+<footer>
+  <p>&copy; 2023 WarnerBros. All rights reserved.</p>
+  <a href="Feedback.html" class="feedback-button">Feedback</a>
+</footer>
+
+</html>
+
+
